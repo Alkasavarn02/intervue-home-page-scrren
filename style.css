@@ -203,8 +203,8 @@ main {
 }
 
 .section-3 > h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.875rem;
+    font-weight: 500;
     margin-bottom: 10px;
     color: var(--color-black);
 }
@@ -212,8 +212,10 @@ main {
 .section-3 > p {
     max-width: 500px;
     width: 100%;
-    margin-bottom: 30px;
-    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 3.5rem;
 }
 
 .priority-details {
@@ -234,15 +236,17 @@ main {
 
 .priority-details-card > h3 {
     color: var(--color-black);
-    font-size: 1.5rem;
+    margin-top: 10px;
+    font-size: 14px;
     font-weight: 600;
-    margin-bottom: 6px;
-    margin-top: 6px;
 }
 
 .priority-details-card > p {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+    margin-top: 0.3rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
 }
 
 .additional-cards {
@@ -255,14 +259,20 @@ main {
 }
 
 .right-arrow-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .right-arrow-icon-additionals {
     position: absolute;
     bottom: 20px;
     right: 20px;
+}
+
+.intervue-text {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .card {
@@ -279,30 +289,35 @@ main {
 
 .section-6 {
     width: 100%;
-    background-color: #FFE2E2;
+    background-color: #f4e7e7;
     padding: 50px 90px;
 }
 
 .faq-text {
-    margin-bottom: 30px;
     font-size: 1.5rem;
 }
 
 .para-text {
-    margin-bottom: 50px;
+    margin-top: 1.75rem;
     width: 400px;
 }
 
 .faq-text, .doubt-text {
     color: var(--color-black);
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .doubt-text {
-    margin-bottom: 5px;
+    line-height: 1.75rem;
+    margin-bottom: 0.25rem;
+    margin-top: 3.5rem;
 }
 
 .customer-support-additionals > p {
-    color: #2973B2;
+    color: #1d68bd;
+    font-weight: 600;
+    font-size: 1.125rem
 }
 
 .phone-icon-container {
@@ -324,6 +339,8 @@ main {
 .question-area {
     margin: 0 40px;
     color: var(--color-black);
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .plus-btn {
@@ -335,7 +352,7 @@ main {
 
 .footer {
     width: 100%;
-    background-color: #222831;
+    background-color: rgb(4, 4, 4);
     padding: 70px 90px;
     color: var(--color-white);
     gap: 80px;
@@ -356,7 +373,7 @@ main {
 }
 
 .div-1 > h3 {
-    color: #FCC737;
+    color: rgb(255, 205, 108);
     margin-bottom: 10px;
 }
 
@@ -372,13 +389,16 @@ main {
 }
 
 .div-2 > p, .div-3 > p, .div-4 > p, .div-5 > p {
-    font-size: 1rem;
-    color: #e7e7e7;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.875rem;
+    line-height: 1.25rem
 }
 
 .div-2 > h3 .div-3 > h3, .div-4 > h3, .div-5 > h3 {
-    font-weight: 600;
-    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
 } 
 
 .div-2, .div-3, .div-4, .div-5 {
