@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 
 :root {
     --color-white: #fff;
@@ -13,7 +13,7 @@
 
 body {
     width: 100%;
-    font-family: "Poppins", serif;
+    font-family: "Sora", serif;
     color: #686D76;
 }
 
@@ -108,13 +108,13 @@ main {
 }
 
 .section-1 > h3 {
-    font-size: 33px;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-black);
 }
 
 .section-1 > p {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .input-section-area {
@@ -137,8 +137,8 @@ main {
     border: none;
     outline: none;
     background-color: transparent;
-    font-family: "Poppins";
-    font-size: 17px;
+    font-family: "Sora";
+    font-size: 1rem;
 }
 
 .section-2 {
@@ -156,9 +156,8 @@ main {
 }
 
 .level-text {
-    padding: 4px 15px;
+    padding: 4px 12px;
     border-radius: 5px;
-    margin-right: 20px;
     color: var(--color-white);
 }
 
@@ -177,11 +176,17 @@ main {
 .subject-text {
     color: #686D76;
     margin-bottom: 13px;
+    font-size: 15px;
+}
+
+.subject-text > span {
+    font-size: 1rem;
+    margin-right: 20px;
 }
 
 .info-card > h3 {
-    font-size: 17px;
-    font-weight: 600px;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 8px;
     color: var(--color-black);
 }
@@ -198,7 +203,7 @@ main {
 }
 
 .section-3 > h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
     color: var(--color-black);
@@ -208,6 +213,7 @@ main {
     max-width: 500px;
     width: 100%;
     margin-bottom: 30px;
+    font-size: 1rem;
 }
 
 .priority-details {
@@ -228,14 +234,14 @@ main {
 
 .priority-details-card > h3 {
     color: var(--color-black);
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 6px;
     margin-top: 6px;
 }
 
 .priority-details-card > p {
-    font-size: 15px;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 
@@ -244,8 +250,8 @@ main {
 }
 
 .key-icon, .buffer-icon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .right-arrow-icon {
@@ -279,7 +285,7 @@ main {
 
 .faq-text {
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 .para-text {
@@ -366,13 +372,13 @@ main {
 }
 
 .div-2 > p, .div-3 > p, .div-4 > p, .div-5 > p {
-    font-size: 15px;
+    font-size: 1rem;
     color: #e7e7e7;
 }
 
 .div-2 > h3 .div-3 > h3, .div-4 > h3, .div-5 > h3 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5rem;
 } 
 
 .div-2, .div-3, .div-4, .div-5 {
